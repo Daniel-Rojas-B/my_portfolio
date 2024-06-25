@@ -2,7 +2,7 @@
   "name": "my_portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Daniel-Rojas-B.github.io/my_portfolioo/",
+  "homepage": "https://daniel-rojas-b.github.io/my_portfolio/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
