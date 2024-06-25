@@ -69,15 +69,15 @@ section {
 .GitHub {
   width: 40%;
 }
-.social-media {
+/* .social-media {
   display: flex;
   flex: 1;
   justify-content: space-around;
   align-items: center;
-}
+} */
 .links {
   display: flex;
-  flex: 2;
+  flex: 1;
   justify-content: space-around;
   align-items: center;
 }
