@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div>
       <h1>Welcome to My Portfolio</h1>
-      <p>Hi, I'm [Your Name], a software developer.</p>
+      <p>Hi, I'm Daniel, a software developer.</p>
     </div>
   );
 };
