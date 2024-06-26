@@ -4,49 +4,53 @@ body {
   font-family: 'Balsamiq Sans', sans-serif;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
-
+h1 {
+  text-align: center;
+}
 nav {
   background-color: black;
-  color: #fff;
-  padding: 1rem;
+
+  padding: 1px;
+
 }
 
 nav ul {
   list-style: none;
   display: flex;
-  justify-content: space-around;
 }
 
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
-}
+
 
 footer {
   background-color: black;
   color: #fff;
-  padding: 1rem;
+  padding: 10px 0;
   position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
+  
   display: flex;
   justify-content: space-around;
   align-items: center;
+  
 
 }
+
 .left-part {
   display: flex;
   flex: 1;
   justify-content: space-around;
-  
+
 }
+
 .right-part {
   display: flex;
   flex: 1;
   justify-content: space-around;
-  
+
 }
 
 a {
@@ -63,12 +67,22 @@ section {
   padding: 1rem;
   margin: 1rem 0;
 }
+
 .LinkedIn {
+  max-width: 100%;
+  height: auto;
+  width: 30%;
+  
+}
+
+.LinkedInLogo {
   width: 40%;
 }
+
 .GitHub {
   width: 40%;
 }
+
 /* .social-media {
   display: flex;
   flex: 1;
@@ -80,4 +94,45 @@ section {
   flex: 1;
   justify-content: space-around;
   align-items: center;
+  background-color: black;
+}
+
+/* About */
+.main-container {
+  display: flex;
+  
+  background-color: green;
+  padding: 10px 10px 0px 10px;
+}
+
+.left-container {
+  display: flex;
+  flex: 1;
+  /* Each inner container will take equal space */
+  margin: 5px;
+  padding: 20px;
+  background-color: white;
+  justify-content: center;
+  align-items: start;
+
+}
+
+.right-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  /* Each inner container will take equal space */
+  margin: 5px;
+  padding: 20px;
+  background-color: white;
+}
+
+.language-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  /* Each inner container will take equal space */
+  margin: 5px;
+  padding: 20px;
+  background-color: white;
 }
