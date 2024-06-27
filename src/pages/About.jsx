@@ -10,16 +10,18 @@ const About = () => {
         <div className="right-container">
           <h1>About Me</h1>
           <p>
-            Hello! I'm Daniel, a passionate engineer. I specialize in software development. With a strong background in science and tech, I strive to create impactful and innovative solutions.
-            I'm always eager to learn new technologies and improve my skills. Let's work together to create something amazing!
+          Hello! I'm Daniel, a software-focused engineer with a strong track record in delivering innovative solutions in dynamic environments, shaped by six years of military experience that honed my discipline and perseverance. With a strong background in science and tech, I strive to create impactful and innovative solutions. I'm always eager to learn new technologies and improve my skills. Let's work together to create something amazing!
           </p>
         </div>
 
       </div>
+
+      <div class="line-with-text"><span>Skills</span></div>
+
       <div className="main-container">
         <div className="language-container">
-          <h1>Python</h1>
-          <ul>
+          <h3>Python</h3>
+          <ul className="checkmark-list">
             <li>Flask</li>
             <li>Django</li>
             <li>NumPy</li>
@@ -27,8 +29,8 @@ const About = () => {
           </ul>
         </div>
         <div className="language-container">
-          <h1>JavaScript</h1>
-          <ul>
+          <h3>JavaScript</h3>
+          <ul className="checkmark-list">
             <li>React</li>
             <li>Node.js</li>
             <li>Express</li>
@@ -37,8 +39,8 @@ const About = () => {
           </ul>
         </div>
         <div className="language-container">
-          <h1>Java</h1>
-          <ul>
+          <h3>Java</h3>
+          <ul className="checkmark-list">
             <li>STS</li>
             <li>Spring Boot</li>
             <li>Bootstrap</li>
@@ -46,8 +48,8 @@ const About = () => {
           </ul>
         </div>
         <div className="language-container">
-          <h1>C#</h1>
-          <ul>
+          <h3>C#</h3>
+          <ul className="checkmark-list">
             <li>ASP.NET Core</li>
             <li>Spring Boot</li>
             <li>Bootstrap</li>

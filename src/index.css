@@ -1,19 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Roboto:wght@100&display=swap');
 
+html,
 body {
   font-family: 'Balsamiq Sans', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  height: 100%;
 }
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 h1 {
   text-align: center;
+  color: black;
 }
+
+h3 {
+  text-align: center;
+  color: black;
+}
+
+h4,
+h5 {
+  margin-top: 0;
+  /* Remove default margin */
+  margin-bottom: 5px;
+  /* Adjust margin bottom as needed */
+}
+
+.line-with-text {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid black;
+  line-height: 0.1em;
+  margin: 20px 0 20px;
+}
+
+.line-with-text span {
+  background: #fff;
+  padding: 0 10px;
+}
+
+span {
+  color: black;
+}
+
 nav {
   background-color: black;
-
   padding: 1px;
-
 }
 
 nav ul {
@@ -21,36 +60,32 @@ nav ul {
   display: flex;
 }
 
-
+.content {
+  flex: 1;
+  padding: 20px;
+  /* Adjust padding as needed */
+}
 
 footer {
-  background-color: black;
+  background: black;
   color: #fff;
-  padding: 10px 0;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  
+  text-align: center;
+  padding: 1em;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  
-
 }
 
 .left-part {
   display: flex;
   flex: 1;
   justify-content: space-around;
-
 }
 
 .right-part {
   display: flex;
   flex: 1;
   justify-content: space-around;
-
 }
 
 a {
@@ -72,7 +107,6 @@ section {
   max-width: 100%;
   height: auto;
   width: 30%;
-  
 }
 
 .LinkedInLogo {
@@ -100,8 +134,7 @@ section {
 /* About */
 .main-container {
   display: flex;
-  
-  background-color: green;
+  background-color: white;
   padding: 10px 10px 0px 10px;
 }
 
@@ -114,7 +147,6 @@ section {
   background-color: white;
   justify-content: center;
   align-items: start;
-
 }
 
 .right-container {
@@ -135,4 +167,95 @@ section {
   margin: 5px;
   padding: 20px;
   background-color: white;
+  border-style: outset;
+}
+
+.example-container div {
+  background: grey;
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.checkmark-list {
+  list-style: none;
+  /* Remove default bullet points */
+  padding: 0;
+  margin: 0;
+}
+
+.checkmark-list li {
+  position: relative;
+  /* Position relative to allow absolute positioning of the checkmark */
+  padding-left: 25px;
+  /* Space for the checkmark */
+  margin-bottom: 10px;
+  /* Optional: Space between list items */
+}
+
+.checkmark-list li:before {
+  content: '\2713';
+  /* Unicode for checkmark */
+  position: absolute;
+  /* Position the checkmark */
+  left: 0;
+  top: 0;
+  color: green;
+  /* Color of the checkmark */
+  font-size: 1.2em;
+  /* Size of the checkmark */
+  line-height: 1em;
+  /* Adjust line height to center the checkmark */
+}
+
+.latest-work-container {
+  display: flex;
+  justify-content: space-around;
+
+
+}
+
+.responsive-img {
+  max-width: 150px;
+  /* Ensures the image does not exceed its original size */
+  height: 150px;
+  /* Allows the image to scale proportionally */
+  display: block;
+  /* Ensures proper spacing and alignment */
+  margin: 10px auto;
+  /* Centers the image within its container (optional) */
+}
+
+.latest-work-box {
+  width: 100%;
+  /* Adjust as needed */
+  max-width: 600px;
+  /* Optional: Limits maximum width */
+  margin: 10px;
+  /* Centers the container */
+  border-style: outset;
+  padding: 10px;
+}
+
+.latest-work-box img {
+  max-width: 100%;
+  /* Ensures the image does not exceed its original size */
+  height: auto;
+  /* Allows the image to scale proportionally */
+  display: block;
+  /* Ensures proper spacing and alignment */
+  width: 100%;
+  /* Ensures all images are the same width */
+  height: 200px;
+  /* Set a fixed height or adjust as needed */
+  object-fit: cover;
+  /* Ensures images fill the container uniformly */
+  margin-bottom: 10px;
+  /* Optional: Adds space between images */
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
 }
