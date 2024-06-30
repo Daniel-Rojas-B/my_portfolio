@@ -1,16 +1,14 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
-    <footer class="footer">
-      <div class="left-part">
+    <footer>
+      <ul className='footer-list'>
         &copy; 2024 Daniel Rojas
-      </div>
-      <div class="right-part">
-        <a href="#">About</a>
-        <a href="#">Projects</a>
-        <a href="#">Contact</a>
-      </div>
+        <li><Link to="/about">About</Link></li>
+        <li><Link to="/projects">Projects</Link></li>
+        <li><Link to="/contact">Contact</Link></li>
+      </ul>
     </footer>
   );
 };
