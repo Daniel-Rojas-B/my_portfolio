@@ -50,9 +50,9 @@ const About = () => {
         <div className="language-container">
           <h3>C#</h3>
           <ul className="checkmark-list">
-            <li>ASP.NET Core</li>
-            <li>Spring Boot</li>
-            <li>Bootstrap</li>
+            <li>ASP.NET MVC</li>
+            <li>Github Actions</li>
+            <li>Postman</li>
                        
           </ul>
         </div>
